@@ -1,0 +1,69 @@
+body{
+    margin:0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(75, 39, 39);
+}
+nav{
+    display: flex;
+    background-color: burlywood;
+    color: rgb(60, 38, 38);
+    padding: 5px;
+    font-size: medium;
+    gap: 200px;
+    position: sticky;
+    width: 100%;
+    align-items: center;
+    justify-content: end;
+}
+
+a{
+    color: rgb(74, 22, 31);
+    text-decoration: none;
+    font-weight: 100;
+
+}
+nav a:hover{color: blue;}
+h1{
+    color: rgb(50, 31, 18);
+}
+h3{
+    color: white;
+}
+#main{
+    text-align: center;
+    padding: 20px;
+    background-color:rgb(91, 46, 46);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+#main img{
+    height: 300px;
+    width: 200px;
+    border-radius: 30%;
+    
+}
+#d1{
+    color: black;
+}
+#edu{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+
+}
+#edu img{
+    height: 250px;
+    width:370px;
+    background-color: rgb(212, 207, 207);
+    padding: 5px;
+     
+}
+#school{
+    background-color: rgb(148, 91, 70);
+}
+#pu{
+    background-color: rgb(233, 192, 115);
+}
+#college{
+    background-color:rgb(163, 95, 70) ;
+}
